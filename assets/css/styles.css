@@ -1,0 +1,80 @@
+body {
+    width: 100%;
+}
+
+.colorh {
+    background-color: rgba(255, 231, 203, 0.345);
+}
+
+.fotoissue {
+    text-align: center;
+    padding-top: 5%
+}
+
+.fotoissue img {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    border: solid 2px;
+}
+
+.conocer {
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.204);
+}
+
+.conocimientos { 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+    
+}
+
+.proyectosbg {
+    background-color: rgba(137, 43, 226, 0.115);
+}
+
+.proyectos{
+    display: flex;
+    justify-content: center;
+}
+
+.bootlogo {
+    width: 10%;
+    height: 10%;
+}
+
+.csslogo {
+    width: 18%;
+    height: 15%;
+}
+
+.htmllogo {
+    width: 11%;
+    height: 9%;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.card-img-top {
+    height: 30%;
+}
+
+.bottom {
+    background-color: rgba(127, 255, 212, 0.177);
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer h4 {
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 2%;
+}

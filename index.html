@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Greivin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>    
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portafolio de Greivin</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#resumen">Resumen</a>
+          <a class="nav-link" href="#conocimientos">Conocimientos</a>
+          <a class="nav-link" href="#proyecto">Proyectos</a>
+          <a class="nav-link" href="#contactame">Contactame</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="colorh">
+
+    <div class="fotoissue">
+      <img src="assets/img/DSC_0587 copy.jpg" alt="greivinfoto">
+    </div>
+
+    <div>
+      <h2 class="text-center pt-2"> Resumen</h2>
+      <p class="text-center">Experiencia con diversas herramientas de desarrollo y diseño de paginas web. Cursado un bootcamp con Desafio Latam, en Chile. Manejo de habilidades para trabajar en equipo, liderazgo y experiencia con comunicacion y logistica al desarrollar o trabajar en eventos. Autodidacto, y en constante aprendizaje del ambito de la programacion
+      </p><br />
+    </div>
+
+  </header>
+
+  <section class="conocer">
+    
+    <div>    
+      <h2 id="conocimientos" class="pt-2 pb-2" >Conocimientos</h2>
+    </div>
+
+
+    <div class="conocimientos">
+      <img class="bootlogo" src="assets/img/Bootstrap_logo.svg.png" alt="bootstrap">
+            
+      <img class="csslogo" src="assets/img/CSS-Logo.png" alt="css">
+                        
+      <img class="htmllogo" src="assets/img/HTML5_logo_and_wordmark.svg.png" alt="html">
+    </div>
+
+  </section>
+
+  <main class="proyectosbg">
+    <h2 id="proyecto" class="proyectos pt-2">proyectos</h2>
+
+    <div class="tarjetas">
+
+      <div class="card" style="width: 12rem;">
+        <img src="assets/img/cvgreivin.png" class="card-img-top" alt="primer-cv">
+        <div class="card-body">
+          <h5 class="card-title">CV HTML</h5>
+          <p class="card-text">Mi primer proyecto usando HTML por primera vez.</p>
+          <a href="https://greivintl.github.io/cvGreivin/" target="_blank" class="btn btn-primary">Ir a la pagina</a>
+        </div>
+      </div>
+  
+  
+      <div class="card" style="width: 12rem;">
+        <img src="assets/img/landingpage.png" class="card-img-top" alt="landing-page">
+        <div class="card-body">
+          <h5 class="card-title">Primer landing page</h5>
+          <p class="card-text">Este fue mi primer proyecto aprendiendo CSS</p>
+          <a href="https://greivintl.github.io/landing-page/" target="_blank" class="btn btn-primary">Ir a la pagina</a>
+        </div>
+      </div>
+  
+  
+      <div class="card" style="width: 12rem;">
+        <img src="assets/img/iguanapage.png" class="card-img-top" alt="iguanapage">
+        <div class="card-body">
+          <h5 class="card-title">iguana page</h5>
+          <p class="card-text">Iguana landing-page</p>
+          <a href="https://greivintl.github.io/3-iguana-page/" target="_blank" class="btn btn-primary">Ir a la pagina</a>
+        </div>
+      </div>
+  
+      <div class="card" style="width: 12rem;">
+        <img src="assets/img/cuppon.png" class="card-img-top" alt="cuppon">
+        <div class="card-body">
+          <h5 class="card-title">Cuppon page</h5>
+          <p class="card-text">Pagina de cuppon hecha a puro Bootstrap y un poquito de CSS, nota: la info dentro de ella no es seria...</p>
+          <a href="https://greivintl.github.io/Cuppon-Barato---Greivin/" target="_blank" class="btn btn-primary">Ir a la pagina</a>
+        </div>
+      </div>
+    </div>  
+
+  </main>
+
+  <section class="bottom">  
+    <div id="contactame" class="container"> 
+      <h2 class="pt-4 text-center ">Contactame</h2>
+      <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escribe tu Nombre Completo">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">Correo Electronico</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Escribe tu Correo Electronico">
+    </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">Mensaje</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Deja tu Mensaje">
+      </div>
+      <div class="pt-2 pb-4">
+        <button class="btn btn-success" type="submit">Enviar</button>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <h4 class="text-center pt-4">© Greivin Torres. Todos los derechos reservados.</h4><br />
+  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</body>
+</html>
